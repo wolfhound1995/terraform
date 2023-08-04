@@ -1,0 +1,18 @@
+Run terraform init in your terminal to initialize the working directory.
+
+Run terraform apply to create the AWS resources.
+
+Terraform will ask for confirmation before proceeding. Type yes to confirm and let Terraform create the resources for you.
+
+Remember that this is just a basic example. In a real-world scenario, you would typically include more configuration, such as security groups, tags, networking settings, and possibly use variables and modules for better organization and reusability.
+
+Also, be cautious while running Terraform apply, as it will create actual resources in your AWS account. Make sure you understand what the code is doing and how it affects your environment before applying.
+
+Always clean up your resources when youre done experimenting:
+
+Run terraform destroy to remove the resources created by Terraform.
+
+This example demonstrates creating an EC2 instance and an S3 bucket
+Install httpd server and connecting an S3 bucket to the EC2 instance, copying 
+the index.html file to the S3 bucket, and using the S3 bucket as the root 
+directory for the Apache HTTP server,
