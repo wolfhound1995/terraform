@@ -15,4 +15,4 @@ Run terraform destroy to remove the resources created by Terraform.
 This example demonstrates creating an EC2 instance and an S3 bucket
 Install httpd server and connecting an S3 bucket to the EC2 instance, copying 
 the index.html file to the S3 bucket, and using the S3 bucket as the root 
-directory for the Apache HTTP server,
+directory for the Apache HTTP server
